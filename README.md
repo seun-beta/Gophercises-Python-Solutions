@@ -6,7 +6,6 @@
 - [Link to the questions in Gophercises](#link)
 - [Getting Started](#getting_started)
 - [Concepts I have learnt so far](#concepts_learnt)
-- [Contributing](../CONTRIBUTING.md)
 
 ## About <a name = "about"></a>
 
