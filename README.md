@@ -3,13 +3,18 @@
 ## Table of Contents
 
 - [About](#about)
+- [Link to the questions in Gophercises](#link)
 - [Getting Started](#getting_started)
-- [Concepts I Learnt](#concepts_learnt)
+- [Concepts I have learnt so far](#concepts_learnt)
 - [Contributing](../CONTRIBUTING.md)
 
 ## About <a name = "about"></a>
 
-Gophercises Python Solutions is a repository of my Python solutions to coding challenges that can be found on Chris Calhoun's [Gophercises](gophercises.org) website. The solutions to Gophercises are written in [Go](golang.com) so I decided to solve the problems by myself using Python as  [Python](python.org) is my primary language.
+Gophercises Python Solutions is a repository of my Python solutions to coding challenges that can be found on Chris Calhoun's [Gophercises](gophercises.org) website. The solutions to Gophercises are written in [Go](golang.com) so I decided to solve the problems by myself using Python as  [Python](python.org) is my primary language.  
+
+## Link to the questions in Gophercises <a name="link"></a>
+- [quiz](https://github.com/gophercises/quiz)
+- [phone](https://github.com/gophercises/phone)
 
 ## Getting Started <a name = "getting_started"></a>
 
