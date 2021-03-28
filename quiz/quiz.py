@@ -7,24 +7,25 @@ try:
     fhand = open(user_input)
     reader = csv.reader(fhand)
 except FileNotFoundError:
-    print('-----------File not found--------------')
+    print("-----------File not found--------------\n Opening 'problems.csv' ")
     fhand = open('problems.csv')
     reader = csv.reader(fhand)
-
+    try:
+        timer = int(input('Input your timer: '))
+    except:
+        timer = 30
 
 def countdown():
     global my_timer
-    
-    my_timer = 5
-    
-    for x in range(5):
+    global timer
+    my_timer = timer
+    for _ in range(my_timer):
         my_timer = my_timer - 1
         sleep(1)
         
-    print("Out of time!")
+    print("Out of time!, Press Enter to see your score")
     
 countdown_thread = threading.Thread(target=countdown)
-
 countdown_thread.start()
 
 correct = 0
