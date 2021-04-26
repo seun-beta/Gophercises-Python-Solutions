@@ -1,8 +1,15 @@
 import sqlite3
 import re
+from db import SeedData
 
-connection = sqlite3.connect('db.sqlite3')
-cur = connection.cursor()
+seed = SeedData()
+def database_connection():
+    connection = sqlite3.connect(seed.database_name)
+    cur = connection.cursor()
+    return cur, connection
+
+
+cur, connection = database_connection()
 number = cur.execute("SELECT number FROM phone;")
 number_list = number.fetchall()
 
@@ -18,9 +25,9 @@ connection.commit()
 for new_num in new_list:
     mobile = cur.execute("SELECT number FROM phone WHERE number=?", (new_num,))
     mobile_no = mobile.fetchone()
+    print('Database is being normalized') 
     if mobile_no is None:
         cur.execute("INSERT INTO phone (number) VALUES (?)", (new_num,))
         connection.commit()
     else:
         continue
-        
