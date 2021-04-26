@@ -9,7 +9,7 @@
 
 ## About <a name = "about"></a>
 
-Gophercises Python Solutions is a repository of my Python solutions to coding challenges that can be found on Chris Calhoun's [Gophercises](gophercises.org) website. The solutions to Gophercises are written in [Go](golang.com) so I decided to solve the problems by myself using Python as  [Python](python.org) is my primary language.  
+Gophercises Python Solutions is a repository of my Python solutions to coding challenges that can be found on Chris Calhoun's [Gophercises](https://courses.calhoun.io/courses/cor_gophercises) website. The solutions to Gophercises are written in [Go](https://www.golang.org) so I decided to solve the problems by myself using Python as  [Python](https://www.python.org) is my primary language.  
 
 ## Link to the questions in Gophercises <a name="link"></a>
 - [quiz](https://github.com/gophercises/quiz)
